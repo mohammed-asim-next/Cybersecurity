@@ -440,7 +440,7 @@ header>nav li:hover{
     border-radius: 0px 40px 0px 40px;
     box-shadow: 0px 0px 20px  white;
 }
-#main-container-section-8{
+#contact-us{
     height: 635px;
     background-image: url('../images/240_F_530960431_c8fPd3HansYvrSJ4fJxZqp9OhjQmYoll.jpg');
     background-attachment: fixed;
@@ -452,7 +452,7 @@ header>nav li:hover{
     align-items: center;
 
 }
-#main-container-section-8 div{
+#contact-us div{
     /* border: 2px solid; */
     width: 80%;
     height: 60%;
@@ -461,7 +461,7 @@ header>nav li:hover{
     align-items: center;
     flex-direction: column;
 }
-#main-container-section-8 h1{
+#contact-us h1{
     border-radius: 0px 20px 0px 20px;
     text-transform: uppercase;
     font-weight: 550;
@@ -496,28 +496,16 @@ header>nav li:hover{
     /* text-align: center; */
     
 }
-#main-container-section-9 table td>img{
-    /* text-align: a\; */
-}
-#main-container-section-9 img{
-    height: 200px;
-    width: 310px;
-}
-#main-container-section-9 figcaption{
-    font-family: "Source Sans Pro",sans-serif;
-    font-size: 11px;
-    font-weight: 400;
-    margin-top: 10px;
-    color: #363636;
-}
+
+
 footer{
-    height: 220px;
+    height: 80px;
     border: 2px solid;
     display: flex;
 }
 footer #footer-div-1{
     width: 100%;
-    height: 65%;
+    /* height: 65%; */
     background-color: black;
     border: 2px solid;
     display: flex;
