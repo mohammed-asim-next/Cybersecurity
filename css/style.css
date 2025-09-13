@@ -120,7 +120,7 @@ video {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     border-radius: 0px 20px 0px 20px;
     box-shadow: 10px 10px 0px white;
@@ -537,7 +537,6 @@ footer #footer-div-1{
     color: white;
     /* height: 65%; */
     background-color: black;
-    border: 2px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -545,7 +544,6 @@ footer #footer-div-1{
 #footer-div-1 div:nth-child(1){
     width: 35%;
     height: 35px;
-    /* border: 2px solid white; */
     display: flex;
     justify-content: flex-end;
 }
@@ -718,7 +716,7 @@ a:hover #demo6{
         margin: 0 10px;
     }
     #cards-div>div>h3 {
-        font-size: 1rem;
+        font-size: 0.9rem;
 
     }
     #cards-div>div>ul {
@@ -783,4 +781,3 @@ a:hover #demo6{
     }
 }
 
-/* ...existing code... */
