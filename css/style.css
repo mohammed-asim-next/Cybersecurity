@@ -675,6 +675,29 @@ a:hover #demo6{
 
 /* Responsive navbar for mobile */
 @media (max-width: 768px) {
+    #form-div {
+    width: 95%;
+    /* height: max-content; */
+    min-width: 0;
+    max-width: 98vw;
+    padding: 1.5em 0.5em;
+    box-sizing: border-box;
+}
+
+#form-div>form {
+    width: 100%;
+    height: auto;
+    /* padding: 0.5em 0; */
+    /* gap: -0.1em; */
+}
+
+#form-div>form>input {
+    width: 90%;
+    height: 30px;
+    font-size: 1rem;
+    /* margin-bottom: 0.5em; */
+    padding: 0.5em;
+}
     #cards-div{
         overflow: scroll;
         flex-wrap: nowrap;
