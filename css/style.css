@@ -529,11 +529,12 @@ video {
 
 footer{
     height: 80px;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
 }
 footer #footer-div-1{
     width: 100%;
+    color: white;
     /* height: 65%; */
     background-color: black;
     border: 2px solid;
@@ -542,7 +543,7 @@ footer #footer-div-1{
     align-items: center;
 }
 #footer-div-1 div:nth-child(1){
-    width: 250px;
+    width: 35%;
     height: 35px;
     /* border: 2px solid white; */
     display: flex;
@@ -675,6 +676,13 @@ a:hover #demo6{
 
 /* Responsive navbar for mobile */
 @media (max-width: 768px) {
+    #footer-div-1{
+
+    }
+    #contact-us div{
+            height: 65%;
+
+    }
     #form-div {
     width: 95%;
     /* height: max-content; */
